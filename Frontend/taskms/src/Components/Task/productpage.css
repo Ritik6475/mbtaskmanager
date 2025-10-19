@@ -1,0 +1,90 @@
+/* Container specific to Productpage */
+.productpage-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Scrollable products container */
+.productpage-scrollable {
+  height: 500px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+/* Individual product card */
+.productpage-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 15px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.productpage-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.productpage-card img {
+  max-width: 200px;
+  max-height: 150px;
+  object-fit: cover;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+
+.productpage-card p {
+  margin: 5px 0;
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* Product actions buttons */
+.productpage-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.productpage-actions button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.productpage-actions button:first-child {
+  background-color: #4caf50;
+  color: #fff;
+}
+
+.productpage-actions button:first-child:hover {
+  background-color: #45a049;
+}
+
+.productpage-actions button:last-child {
+  background-color: #2196f3;
+  color: #fff;
+}
+
+.productpage-actions button:last-child:hover {
+  background-color: #0b7dda;
+}
+
+/* No more products text */
+.productpage-end {
+  text-align: center;
+  padding: 10px;
+  color: #777;
+}

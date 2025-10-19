@@ -1,0 +1,4 @@
+/* Example custom style for App.jsx */
+.hero-section {
+  @apply bg-blue-500 text-white p-8 rounded-xl;
+}

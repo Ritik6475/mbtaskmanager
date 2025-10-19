@@ -1,0 +1,6 @@
+Backend/.env
+Frontend/taskms/.env
+node_modules
+
+Frontend/taskms/node_modules
+Backend/node_modules
